@@ -3,10 +3,14 @@ import "./App.css";
 // import Link from "antd/es/typography/Link";
 // import { Link } from "react-router-dom";
 import img1 from "./todo.png";
-
+// import { useNavigate } from "react-router-dom";
 
 function Login() {
-  
+  //   const navigate = useNavigate();
+
+  //   const handleLoginClick = () => {
+  //     navigate("/SignUp");
+  //   };
 
   return (
     <div className="Login">
@@ -42,7 +46,7 @@ function Login() {
             type="submit"
             className="submit-button"
             placeholder="Login"
-            
+            // onClick={handleLoginClick}
           >
             Login
           </button>
