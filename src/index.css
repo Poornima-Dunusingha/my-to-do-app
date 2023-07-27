@@ -1,13 +1,241 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.loginpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.loginpage-loginpage {
+  width: 100%;
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: rgba(252, 250, 253, 1);
+}
+.loginpage-rectangle3 {
+  top: 495px;
+  left: -1px;
+  width: 390px;
+  height: 259px;
+  position: absolute;
+}
+.loginpage-component1 {
+  top: 545px;
+  left: 16px;
+  width: 324px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.loginpage-rectangle1 {
+  top: 0px;
+  left: 108px;
+  width: 216px;
+  height: 49px;
+  position: absolute;
+  border-radius: 20px;
+}
+.loginpage-text {
+  top: 11px;
+  color: rgba(0, 0, 0, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text02 {
+  top: 18px;
+  left: 126px;
+  color: rgba(0, 0, 0, 0.5400000214576721);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Akaya Kanadaka;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-component2 {
+  top: 617px;
+  left: 16px;
+  width: 324px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.loginpage-rectangle11 {
+  top: 0px;
+  left: 108px;
+  width: 216px;
+  height: 49px;
+  position: absolute;
+  border-radius: 20px;
+}
+.loginpage-text04 {
+  top: 11px;
+  color: rgba(0, 0, 0, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text06 {
+  top: 18px;
+  left: 122px;
+  color: rgba(0, 0, 0, 0.5400000214576721);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Akaya Kanadaka;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text08 {
+  top: 336px;
+  left: 38px;
+  color: rgba(0, 0, 0, 1);
+  width: 328px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Indie Flower;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text15 {
+  top: 240px;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 276px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Indie Flower;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text17 {
+  top: 282px;
+  left: 159px;
+  color: rgba(0, 0, 0, 1);
+  width: 75px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Indie Flower;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-todo1 {
+  top: 89px;
+  left: 142px;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 100px;
+}
+.loginpage-rectangle7 {
+  top: 703px;
+  left: 62px;
+  width: 98px;
+  height: 38px;
+  position: absolute;
+}
+.loginpage-frame1 {
+  gap: 10px;
+  top: 700px;
+  left: 75px;
+  width: 73px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.loginpage-text19 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Akaya Telivigala;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-rectangle8 {
+  top: 703px;
+  left: 202px;
+  width: 98px;
+  height: 38px;
+  position: absolute;
+}
+.loginpage-frame2 {
+  gap: 10px;
+  top: 700px;
+  left: 206px;
+  width: 90px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.loginpage-text21 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Akaya Telivigala;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
